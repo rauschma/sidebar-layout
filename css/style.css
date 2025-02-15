@@ -1,0 +1,46 @@
+/* https://every-layout.dev/layouts/sidebar/ */
+
+body {
+  background: lightblue;
+  font-size: 1.1rem;
+}
+
+.with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-col {
+  flex-grow: 1;
+  background: white;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sidebar {
+  width: 8rem;
+
+  background: lightblue;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.header {
+  padding: 0.5rem;
+  background: lightblue;
+  align-self: stretch;
+  text-align: center;
+}
+.blog-title {
+  font-size: x-large;
+}
+
+.content {
+  min-width: 20rem;
+  max-width: 34rem;
+  padding: 0.5rem;
+}

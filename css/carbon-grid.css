@@ -1,0 +1,48 @@
+/* https://codepen.io/trieuvy/pen/OJMKver */
+
+.ad-box {
+  margin-bottom: 0.5rem;
+}
+
+.ad-description {
+  font-size: 90%;
+  text-align: right;
+  color: hsl(0, 0%, 50%);
+}
+
+#carbonads > span {
+  display: grid;
+  grid-template-columns: 20rem 1fr;
+  grid-template-rows: 1fr 20rem;
+  grid-template-areas:
+    "img text"
+    "img poweredby"
+  ;
+  background-color: hsl(0, 0%, 98%);
+  border: solid thin gray;
+}
+
+.carbon-img {
+  grid-area: img;
+  display: block;
+}
+
+.carbon-text {
+  grid-area: text;
+  display: block;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  color: inherit;
+	text-decoration: none;
+  font-size: 125%;
+
+  background: red;
+}
+
+.carbon-poweredby {
+  grid-area: poweredby;
+  display: block;
+  padding-right: 0.25rem;
+}

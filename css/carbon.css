@@ -1,0 +1,48 @@
+/* https://codepen.io/trieuvy/pen/OJMKver */
+
+.ad-box {
+  margin-bottom: 1rem;
+}
+
+.ad-description {
+  font-size: 80%;
+  text-align: right;
+  color: hsl(0, 0%, 40%);
+}
+
+#carbonads {
+  position: relative;
+  border: solid thin gray;
+  background-color: hsl(0, 0%, 98%);
+}
+
+.carbon-wrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.carbon-img {
+  display: block;
+}
+
+.carbon-text {
+  display: block;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-size: 115%;
+	text-decoration: none;
+  color: inherit;
+}
+
+.carbon-poweredby {
+  display: block;
+  padding-right: 0.25rem;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+  font-size: 80%;
+	text-decoration: none;
+  color: hsl(0, 0%, 40%);
+}
